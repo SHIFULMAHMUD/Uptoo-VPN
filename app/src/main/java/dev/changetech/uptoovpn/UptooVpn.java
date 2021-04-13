@@ -65,6 +65,7 @@ public class UptooVpn extends AppCompatActivity {
         initComponent();
         loading = new Loading(this, false);
         recyclerViewUae.setLayoutManager(new LinearLayoutManager(this));
+
         recyclerViewKsa.setLayoutManager(new LinearLayoutManager(this));
 
         uaeArrayList = new ArrayList();
